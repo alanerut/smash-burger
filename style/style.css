@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(237, 214, 6);
+}
+
+.container {
+    text-align: center;
+    padding: 10px;
+}
+
+.alert {
+    display: block;
+    padding: 12px 20px;
+    background: #f8d7da;
+    color: #721c24;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+}
+
+/*footer*/
+
+footer {
+    position: relative;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .social-icon,
+footer .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .social-icon li,
+footer .menu li {
+    list-style: none;
+
+}
+
+footer .social-icon li a {
+    font-size: 2em;
+    color: rgb(246, 139, 7);
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social-icon li a:hover {
+    transform: translate(-10px);
+}
+
+footer .menu li a {
+    font-size: 1.2em;
+    color: rgb(246, 139, 7);
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer .menu li a:hover {
+    opacity: 1;
+
+}
+
+footer p {
+    color: rgb(246, 139, 7);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* contactos   */
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    background: rgb(3, 3, 3);
+    padding: 40px;
+    margin: 20px auto;
+    box-shadow: opx 1px 2px black;
+}
+
+.contenedor h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+    color: rgb(246, 139, 7);
+}
+
+.contenido {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contenido .info,
+.contenido .formulario {
+    width: 50%;
+}
+
+
+/* info */
+
+.info {
+    padding-left: 10px;
+
+}
+
+.info .col {
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 16px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.info .col .icono {
+    color: rgb(246, 139, 7);
+    margin-right: 10px;
+}
+
+.info .col p {
+    color: rgb(246, 139, 7);
+
+}
+
+.info .redes-s {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.info .redes-s a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: rgb(246, 139, 7);
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, .4);
+
+}
+
+.info .redes-s a:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, .4);
+    background: rgb(220, 149, 63);
+}
+
+.formulario {
+    padding-left: 10px;
+}
+
+.formulario input[type='text'],
+.formulario textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px 20px;
+    border: 1px solid rgb(229, 207, 12);
+    color: rgb(4, 4, 4);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    outline: 0;
+}
+
+
+.formulario textarea {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+}
+
+.formulario input[type='text']:focus,
+.formulario textarea:focus {
+    border: 3px solid orange;
+}
+
+.formulario button {
+    padding: 12px 30px;
+    border: transparent;
+    background: rgb(232, 191, 8);
+    color: rgb(7, 7, 7);
+    cursor: pointer;
+}
+
+
+
+.conte_parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.conte {
+    height: 510px;
+    width: 350px;
+    box-shadow: 0 0 7px #111;
+    margin: 30px 30px;
+}
+
+.conte .card {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 170px;
+}
+
+.card img {
+    margin: auto;
+    display: block;
+}
+
+.conte .stromtroper img {
+    height: 330px;
+    width: 300px;
+}
+
+.conte .stromtroper {
+    background-color: #111;
+}
+
+.conte .iron-man {
+    background-color: #6A0C0B;
+}
+
+.conte .spider-man {
+    background-color: #B11313;
+}
+
+.conte .iron-man img {
+    height: 330px;
+    width: 230px;
+}
+
+.conte .spider-man img {
+    height: 330px;
+    width: 300px;
+}
+
+.informacion {
+    height: 80px;
+    width: 100%;
+}
+
+.informacion h1 {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: -10px;
+}
+
+.informacion p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9em;
+    color: #555;
+}
+
+.precio {
+    height: 50px;
+    width: 85%;
+    margin: auto;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-precio {
+    width: 80px;
+}
+
+.precio1 {
+    color: red;
+    font-size: .8em;
+}
+
+.precio .precio2 {
+    font-size: 1.5em;
+}
+
+.shoping {
+    font-size: 1.5em;
+    color: #555;
+}
+
+.containerr {
+    margin: auto;
+
+}
+
+.section_2 {
+    width: 75%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.section_2-title {
+    font-family: 'roboto', sans-serif;
+    font-size: 40px;
+    color: rgb(218, 157, 15);
+    font-weight: bold;
+
+}
+
+.us {
+    display: flex;
+}
+
+.us-text {
+    width: 60%;
+    padding: 0 10% 0 0;
+
+}
+
+.us-paragraph {
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+    color: rgb(17, 17, 18);
+    text-align: justify;
+    width: 90%;
+}
+
+.us-img {
+    width: 40%;
+}
+
+.img-img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media (max-width: 520px) {
+    .contenedor {
+        padding: 40px 20px;
+    }
+
+    .contenido .info,
+    .contenido .formulario {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .contenido .info {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .contenido .info,
+    .contenido .formulario {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .contenido .info {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .us {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .us-paragraph{
+        
+            font-family: 'roboto', sans-serif;
+            font-size: 18px;
+            color: rgb(17, 17, 18);
+            text-align: justify;
+            width: 100%;
+        
+    }
+
+    .section_2-title {
+        font-family: 'roboto', sans-serif;
+        font-size: 40px;
+        color: rgb(218, 157, 15);
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .us-img{
+        width: 100%;
+    }
+}
